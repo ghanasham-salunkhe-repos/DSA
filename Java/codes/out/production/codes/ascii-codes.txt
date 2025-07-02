@@ -1,0 +1,136 @@
+ascii code 0 :
+ascii code 1 : 
+ascii code 2 : 
+ascii code 3 : 
+ascii code 4 : 
+ascii code 5 : 
+ascii code 6 : 
+ascii code 7 : 
+ascii code 8 :
+ascii code 9 :
+ascii code 10 (new line):
+
+ascii code 11 : 
+ascii code 12 : 
+ascii code 13 :
+ascii code 14 : 
+ascii code 15 : 
+ascii code 16 : 
+ascii code 17 : 
+ascii code 18 : 
+ascii code 19 : 
+ascii code 20 : 
+ascii code 21 : 
+ascii code 22 : 
+ascii code 23 : 
+ascii code 24 : 
+ascii code 25 : 
+ascii code 26 : 
+ascii code 27 : 
+ascii code 28 : 
+ascii code 29 : 
+ascii code 30 : 
+ascii code 31 : 
+ascii code 32 :
+ascii code 33 : !
+ascii code 34 : "
+ascii code 35 : #
+ascii code 36 : $
+ascii code 37 : %
+ascii code 38 : &
+ascii code 39 : '
+ascii code 40 : (
+ascii code 41 : )
+ascii code 42 : *
+ascii code 43 : +
+ascii code 44 : ,
+ascii code 45 : -
+ascii code 46 : .
+ascii code 47 : /
+ascii code 48 : 0
+ascii code 49 : 1
+ascii code 50 : 2
+ascii code 51 : 3
+ascii code 52 : 4
+ascii code 53 : 5
+ascii code 54 : 6
+ascii code 55 : 7
+ascii code 56 : 8
+ascii code 57 : 9
+ascii code 58 : :
+ascii code 59 : ;
+ascii code 60 : <
+ascii code 61 : =
+ascii code 62 : >
+ascii code 63 : ?
+ascii code 64 : @
+ascii code 65 : A => 65 for A
+ascii code 66 : B
+ascii code 67 : C
+ascii code 68 : D
+ascii code 69 : E
+ascii code 70 : F
+ascii code 71 : G
+ascii code 72 : H
+ascii code 73 : I
+ascii code 74 : J
+ascii code 75 : K
+ascii code 76 : L
+ascii code 77 : M
+ascii code 78 : N
+ascii code 79 : O
+ascii code 80 : P
+ascii code 81 : Q
+ascii code 82 : R
+ascii code 83 : S
+ascii code 84 : T
+ascii code 85 : U
+ascii code 86 : V
+ascii code 87 : W
+ascii code 88 : X
+ascii code 89 : Y
+ascii code 90 : Z ==> 90 for Z
+ascii code 91 : [
+ascii code 92 : \
+ascii code 93 : ]
+ascii code 94 : ^
+ascii code 95 : _
+ascii code 96 : `
+ascii code 97 : a ==> 97
+ascii code 98 : b
+ascii code 99 : c
+ascii code 100 : d
+ascii code 101 : e
+ascii code 102 : f
+ascii code 103 : g
+ascii code 104 : h
+ascii code 105 : i
+ascii code 106 : j
+ascii code 107 : k
+ascii code 108 : l
+ascii code 109 : m
+ascii code 110 : n
+ascii code 111 : o
+ascii code 112 : p
+ascii code 113 : q
+ascii code 114 : r
+ascii code 115 : s
+ascii code 116 : t
+ascii code 117 : u
+ascii code 118 : v
+ascii code 119 : w
+ascii code 120 : x
+ascii code 121 : y
+ascii code 122 : z ==> 122 for z
+ascii code 123 : {
+ascii code 124 : |
+ascii code 125 : }
+ascii code 126 : ~
+ascii code 127 : 
+
+a=> 97
+z=> 122
+A=> 65
+Z=>90
+0=> 48
+57=> 9
