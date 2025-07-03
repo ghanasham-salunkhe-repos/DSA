@@ -1,3 +1,5 @@
+package strings;
+
 public class JavaStrings {
 //    String is non primitive datatype but created in built
     // strings used to store block of text

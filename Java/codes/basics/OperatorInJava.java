@@ -1,3 +1,5 @@
+package basics;
+
 public class OperatorInJava {
 //    byte,short,int,long,double,float,boolean,char
     /*

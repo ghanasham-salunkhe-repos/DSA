@@ -1,3 +1,5 @@
+package basics;
+
 class MyClass {
     public static void main(String[] args) {
         System.out.println("hello world!");// println -> new line inserted at the end of data

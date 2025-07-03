@@ -1,3 +1,5 @@
+package strings;
+
 //::TODO
 public class StringFormatFunction {
 

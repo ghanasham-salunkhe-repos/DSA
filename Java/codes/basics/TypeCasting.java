@@ -1,3 +1,5 @@
+package basics;
+
 public class TypeCasting {
 
 //    in java we can typecast variables value from one datatype to another called typecast

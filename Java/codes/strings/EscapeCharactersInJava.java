@@ -1,3 +1,5 @@
+package strings;
+
 public class EscapeCharactersInJava {
     // in java we have escape sequences used inside string
     public static void main(String[] args) {

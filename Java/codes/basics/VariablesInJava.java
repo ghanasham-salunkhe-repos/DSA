@@ -1,3 +1,5 @@
+package basics;
+
 public class VariablesInJava {
     /*
     * The general rules for naming variables are:
