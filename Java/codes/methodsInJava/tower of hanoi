@@ -1,0 +1,45 @@
+Tower of Hanoi problem
+
+1)
+  |
+ |||
+|||||
+source auxilarly destination : -> initial stage
+
+2)
+
+ |||
+|||||                |
+source auxilarly destination : -> (source to distination)
+
+3)
+
+|||||    |||          |
+source auxilarly destination : -> (source to auxilarly)
+
+4)
+
+          |
+|||||    |||
+source auxilarly destination : -> (destination to auxilarly)
+
+5)
+          |
+         |||        |||||
+source auxilarly destination : -> (source to distination)
+
+6)
+
+   |     |||        |||||
+source auxilarly destination : -> (auxilarly to source)
+
+7)
+                     |||
+   |                |||||
+source auxilarly destination : -> (auxilarly to destination)
+
+8)
+                      |
+                     |||
+                    |||||
+source auxilarly destination : -> (source to destination)

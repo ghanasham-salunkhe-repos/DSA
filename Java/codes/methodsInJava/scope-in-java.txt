@@ -1,0 +1,54 @@
+In Java, **scope** refers to the visibility and lifetime of variables, methods, and classes. There are four main types of scope:
+
+1. **Class Scope**:
+   - Variables declared at the class level (outside methods) are accessible throughout the class.
+   - These are also known as **fields** or **instance variables**.
+   - Example:
+     ```java
+     public class Example {
+         int classVariable = 10; // Class scope
+
+         public void display() {
+             System.out.println(classVariable); // Accessible here
+         }
+     }
+     ```
+
+2. **Method Scope**:
+   - Variables declared inside a method are only accessible within that method.
+   - These are called **local variables**.
+   - Example:
+     ```java
+     public void exampleMethod() {
+         int methodVariable = 20; // Method scope
+         System.out.println(methodVariable); // Accessible here
+     }
+     ```
+
+3. **Block Scope**:
+   - Variables declared inside a block (e.g., `if`, `for`, or `{}`) are only accessible within that block.
+   - Example:
+     ```java
+     public void exampleBlock() {
+         if (true) {
+             int blockVariable = 30; // Block scope
+             System.out.println(blockVariable); // Accessible here
+         }
+         // System.out.println(blockVariable); // Error: Not accessible here
+     }
+     ```
+
+4. **Global Scope**:
+   - Java does not have true global variables. However, `static` variables in a class can be accessed globally using the class name.
+   - Example:
+     ```java
+     public class Example {
+         static int globalVariable = 40; // Global-like scope
+
+         public static void display() {
+             System.out.println(globalVariable); // Accessible globally
+         }
+     }
+     ```
+
+Each scope ensures proper encapsulation and prevents unintended access to variables.
