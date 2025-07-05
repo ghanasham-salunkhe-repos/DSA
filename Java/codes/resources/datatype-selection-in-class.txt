@@ -1,0 +1,22 @@
+Selection of attribute datatypes depends on the requirements of your application:
+
+1. **Primitive Data Types**:
+   - Use primitive types (e.g., `int`, `double`, `boolean`) when you need simple, lightweight data storage.
+   - They are faster and consume less memory.
+   - Example:
+     ```java
+     private int legs;
+     private boolean isHerbivorous;
+     ```
+
+2. **Non-Primitive Data Types**:
+   - Use non-primitive types (e.g., `Integer`, `String`, `Boolean`) when you need additional functionality, such as nullability or methods for manipulation.
+   - They are useful in collections or when working with frameworks that require objects.
+   - Example:
+     ```java
+     private Integer legs;
+     private String name;
+     private Boolean isHerbivorous;
+     ```
+
+Choose based on whether you need object-specific features or lightweight performance.

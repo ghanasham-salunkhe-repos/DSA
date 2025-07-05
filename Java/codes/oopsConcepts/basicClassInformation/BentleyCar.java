@@ -1,10 +1,10 @@
-package oopsConceptsInJava;
+package oopsConcepts.basicClassInformation;
 
 // so now we have bently which will inherit parent class so does its propertied
 // code reusability and scalabilty is very easy
 // strong encapsulation of data
 // without writing any additional code we got code for the
-public class BentleyCar extends CarClass{
+public class BentleyCar extends CarClass {
 
     public BentleyCar(int wheels, int gears, boolean electric, double engineTopSpeed, double enginePower, String color,String carModel) {
         super(wheels, gears, electric, engineTopSpeed, enginePower, color);

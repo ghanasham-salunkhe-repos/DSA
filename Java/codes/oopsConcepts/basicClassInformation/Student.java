@@ -1,4 +1,4 @@
-package oopsConceptsInJava;
+package oopsConcepts.basicClassInformation;
 
 public class Student{
 
