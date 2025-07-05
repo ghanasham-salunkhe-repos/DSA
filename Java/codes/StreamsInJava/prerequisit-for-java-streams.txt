@@ -1,0 +1,37 @@
+Prerequisites to Learn Streams in Java:
+Core Java Basics
+
+
+Learn Java syntax, data types, and control structures.
+Reference: Java Basics - GeeksforGeeks
+Object-Oriented Programming (OOP)
+
+
+Understand classes, objects, inheritance, polymorphism, and encapsulation.
+Reference: OOP Concepts - W3Schools
+Collections Framework
+
+
+Study List, Set, Map, and their implementations (ArrayList, HashSet, HashMap).
+Reference: Java Collections - GeeksforGeeks
+Functional Programming in Java
+
+
+Learn lambda expressions, method references, and functional interfaces (Predicate, Function, Consumer).
+Reference: Lambda Expressions - Tutorialspoint
+Java 8 Features
+
+
+Explore Optional, default methods in interfaces, and streams.
+Reference: Java 8 Features - GeeksforGeeks
+Basic File I/O
+
+
+Understand reading and writing files in Java.
+Reference: File Handling - W3Schools
+Multi-threading (Optional)
+
+
+Learn basics of concurrency and parallel processing.
+Reference: Multithreading - GeeksforGeeks
+These resources will help you build a strong foundation before diving into Java Streams.

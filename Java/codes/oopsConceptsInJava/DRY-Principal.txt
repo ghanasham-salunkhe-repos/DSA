@@ -1,0 +1,5 @@
+DRY --> DONT REPEAT YOURSELFThe "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
+The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code.
+You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
+
+OOP encourage us to reuse our codes

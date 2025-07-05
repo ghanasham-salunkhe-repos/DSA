@@ -70,8 +70,8 @@ public class TowerOfHanoiProblem {
         System.out.println("Destination : " + destination);
         System.out.println("--------------------------------------------");
 
-
         // Solve Tower of Hanoi
         towerOfHanoi(5, source, auxilarly, destination,"Source","Auxiliary","destination");
+
     }
 }
