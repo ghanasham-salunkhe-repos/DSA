@@ -1,0 +1,42 @@
+REFER : https://www.w3schools.com/java/java_modifiers.asp
+
+### **Modifiers for Classes**
+
+    Only certain modifiers can be applied to classes:
+    - **public**: Makes the class accessible from any other class.
+    - **abstract**: Indicates the class cannot be instantiated directly.
+    - **final**: Prevents the class from being subclassed.
+    - **strictfp**: Ensures consistent floating-point calculations across platforms.
+
+
+### **Modifiers for Attributes and Methods**
+Modifiers applicable to attributes and methods include:
+
+    #### **Access Modifiers**:
+    - **public**: Accessible from any other class.
+    - **protected**: Accessible within the same package and subclasses.
+    - **default** (no modifier): Accessible within the same package.
+    - **private**: Accessible only within the same class.
+
+#### **Non-Access Modifiers**:
+
+    - **static**: Belongs to the class rather than instances.
+    - **final**: Prevents reassignment for attributes or overriding for methods.
+    - **abstract**: Used for methods in abstract classes (methods must be implemented in subclasses).
+    - **synchronized**: Ensures thread-safe execution of methods. Only once thread can access the value of attribute
+    - **volatile**: Ensures visibility of changes to variables across threads.
+    - **transient**: Prevents serialization of attributes.
+    - **native**: Indicates a method is implemented in native code.
+    - **strictfp**: Ensures consistent floating-point calculations.
+
+
+### what is serialization ?
+
+Serialization in Java is the process of converting an object into a byte stream
+so that it can be saved to a file, sent over a network, or stored in a database.
+Attributes of an object are included in this byte stream unless explicitly marked otherwise.
+
+The transient modifier is used to indicate that a particular attribute should not be serialized.
+When an object is serialized, transient attributes are skipped,
+meaning their values are not included in the byte stream.
+This is useful for sensitive data or attributes that are not needed after deserialization.
