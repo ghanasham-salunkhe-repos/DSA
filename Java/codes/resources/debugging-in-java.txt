@@ -1,0 +1,17 @@
+Debugging in Java is the process of identifying and resolving errors or bugs in a Java program. It involves analyzing the code to find issues that prevent the program from functioning correctly. Debugging can be done using tools like IDEs (e.g., IntelliJ IDEA, Eclipse) or manually by adding print statements.
+
+### Key Debugging Techniques:
+1. **Using Debugger Tools**:
+   - Set breakpoints to pause execution at specific lines.
+   - Step through the code line by line to inspect variable values and program flow.
+
+2. **Print Statements**:
+   - Use `System.out.println()` to print variable values and track execution.
+
+3. **Exception Handling**:
+   - Use `try-catch` blocks to catch and analyze runtime errors.
+
+4. **Logging**:
+   - Use logging frameworks like Log4j or SLF4J for detailed error tracking.
+
+Debugging helps ensure the program runs as intended and improves code quality.

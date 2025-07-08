@@ -1,0 +1,13 @@
+### Main Error Types in Java:
+
+1. **Syntax Errors**
+   - Occur when the code violates Java's syntax rules.
+   - Example: Missing semicolons, incorrect method declarations.
+
+2. **Runtime Errors**
+   - Occur during program execution.
+   - Example: `NullPointerException`, `ArithmeticException`.
+
+3. **Logical Errors**
+   - Errors in the program's logic that produce incorrect results.
+   - Example: Incorrect algorithm implementation.
