@@ -1,0 +1,73 @@
+Here are best practices for handling exceptions in Java, with examples:
+
+**1. Catch Specific Exceptions First**
+Catch the most specific exceptions before general ones.
+
+```java
+try {
+    FileReader reader = new FileReader("file.txt");
+} catch (FileNotFoundException e) {
+    System.err.println("File not found: " + e.getMessage());
+} catch (IOException e) {
+    System.err.println("I/O error: " + e.getMessage());
+}
+```
+
+**2. Use Try-With-Resources for Resource Management**
+Automatically closes resources.
+
+```java
+try (FileReader reader = new FileReader("file.txt")) {
+    // Read file
+} catch (IOException e) {
+    System.err.println("Error: " + e.getMessage());
+}
+```
+
+**3. Avoid Catching Generic Exception or Throwable**
+Do not use `catch (Exception e)` unless necessary.
+
+**4. Provide Meaningful Error Messages**
+Give clear, informative messages.
+
+```java
+catch (SQLException e) {
+    System.err.println("Database connection failed: " + e.getMessage());
+}
+```
+
+**5. Do Not Swallow Exceptions**
+Always handle or log exceptions.
+
+```java
+catch (IOException e) {
+    e.printStackTrace(); // Or use a logger
+}
+```
+
+**6. Do Not Use Exceptions for Control Flow**
+Exceptions should signal errors, not normal logic.
+
+**7. Document Thrown Exceptions**
+Use Javadoc to document exceptions.
+
+```java
+/**
+ * Reads a file.
+ * @throws IOException if the file cannot be read
+ */
+public void readFile(String path) throws IOException {
+    // ...
+}
+```
+
+**8. Wrap and Rethrow if Needed**
+Add context by wrapping exceptions.
+
+```java
+catch (IOException e) {
+    throw new CustomFileException("Failed to process file", e);
+}
+```
+
+These practices help make your code robust, readable, and maintainable.

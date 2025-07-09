@@ -11,3 +11,9 @@
 3. **Logical Errors**
    - Errors in the program's logic that produce incorrect results.
    - Example: Incorrect algorithm implementation.
+
+EXCEPTION ARE REOVERABLE THROWABLES WHILES ERRORS ARE UNRECOVERABLE(application will crash only)
+
+throwables --> Error
+        |
+        |--> Exception

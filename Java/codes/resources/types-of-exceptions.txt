@@ -1,0 +1,17 @@
+### Checked Exceptions:
+- **Definition**: Exceptions that are checked at compile-time by the Java compiler.
+- **Handling**: Must be explicitly handled using `try-catch` blocks or declared in the method signature using the `throws` keyword.
+- **Superclass**: All checked exceptions inherit from the `Exception` class (excluding `RuntimeException`).
+- **Examples**:
+  - `IOException`: Occurs during input/output operations.
+  - `SQLException`: Related to database access errors.
+  - `ClassNotFoundException`: Thrown when a class cannot be found.
+
+### Unchecked Exceptions:
+- **Definition**: Exceptions that occur at runtime and are not checked by the compiler.
+- **Handling**: Can be handled optionally; the compiler does not enforce handling.
+- **Superclass**: All unchecked exceptions inherit from the `RuntimeException` class.
+- **Examples**:
+  - `ArithmeticException`: Occurs during illegal arithmetic operations (e.g., division by zero).
+  - `ArrayIndexOutOfBoundsException`: Thrown when accessing an invalid array index.
+  - `NullPointerException`: Occurs when attempting to use a `null` object reference.

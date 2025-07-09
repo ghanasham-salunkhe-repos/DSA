@@ -1,0 +1,26 @@
+A `Throwable` in Java is the superclass for all errors and exceptions that can be thrown by the JVM. It is part of the `java.lang`
+package and serves as the root of Java’s exception handling mechanism.
+
+**Significance:**
+- All objects that can be thrown using the `throw` statement must inherit from `Throwable`.
+- It has two main subclasses: `Exception` (for recoverable conditions) and `Error` (for serious, unrecoverable problems).
+- Enables structured error and exception handling, allowing programs to catch, handle, or propagate issues during execution.
+
+**Hierarchy:**
+```
+java.lang.Object
+   └── java.lang.Throwable
+         ├── java.lang.Exception
+         │      └── java.lang.RuntimeException
+         └── java.lang.Error
+```
+
+**Example:**
+```java
+try {
+    throw new Exception("This is an exception");
+} catch (Throwable t) {
+    System.out.println("Caught: " + t.getMessage());
+}
+```
+This allows handling any object that is a subclass of `Throwable`, providing a unified approach to error and exception management.
