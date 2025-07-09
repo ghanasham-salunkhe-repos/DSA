@@ -1,0 +1,38 @@
+Here is a summary of `final`, `abstract`, and `static` modifiers in Java:
+
+**final**
+- Applied to: classes, methods, variables.
+- Class: Cannot be subclassed.
+- Method: Cannot be overridden.
+- Variable: Value cannot be changed (constant).
+
+**abstract**
+- Applied to: classes, methods.
+- Class: Cannot be instantiated; must be subclassed.
+- Method: No body; must be implemented by subclasses.
+- Cannot be combined with `final`, `private`, or `static` on methods.
+
+**static**
+- Applied to: variables, methods, blocks, nested classes.
+- Belongs to the class, not instances.
+- Shared among all instances.
+- Can be accessed without creating an object.
+
+**Examples:**
+```java
+final class FinalClass { } // Cannot be extended
+
+abstract class AbstractClass {
+    abstract void doSomething(); // Must be implemented by subclass
+}
+
+class Example {
+    static int count = 0; // Shared by all instances
+    final int id = 1;     // Constant value
+    static void staticMethod() { }
+}
+```
+
+**Note:**
+- `abstract` and `final` cannot be used together.
+- `static` cannot be used on top-level classes.

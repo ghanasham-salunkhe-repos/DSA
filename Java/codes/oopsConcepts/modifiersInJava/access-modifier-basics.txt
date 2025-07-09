@@ -1,0 +1,4 @@
+public: Accessible from everywhere.
+private: Accessible only within the same class.
+protected: Accessible within the same package and by subclasses (even in different packages).
+default (no modifier): Accessible only within the same package.

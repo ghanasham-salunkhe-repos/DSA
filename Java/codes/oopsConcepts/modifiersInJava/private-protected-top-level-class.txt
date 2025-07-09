@@ -1,0 +1,20 @@
+Yes, in Java, you can use both `private` and `protected` access modifiers for inner (nested) classes. This controls their visibility
+within the enclosing class or package.
+
+**Example:**
+
+```java
+class Outer {
+    private class PrivateInner {
+        void show() { System.out.println("Private Inner"); }
+    }
+
+    protected class ProtectedInner {
+        void show() { System.out.println("Protected Inner"); }
+    }
+}
+```
+
+- `private` inner class: Accessible only within the enclosing class.
+- `protected` inner class: Accessible within the same package and by subclasses.
+You cannot use `private` or `protected` on top-level classes.
