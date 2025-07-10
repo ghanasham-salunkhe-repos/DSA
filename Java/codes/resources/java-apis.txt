@@ -1,0 +1,10 @@
+"Inbuilt Java classes" are often called the "Java API" because API stands for Application Programming Interface.
+The Java API is a large collection of prewritten classes, interfaces, and packages provided by Java, which developers use to build applications.
+ These classes define how you interact with the Java platform—offering ready-made functionality for tasks like data structures, file I/O, networking, and more.
+
+Why?
+    - The Java API acts as an interface between your code and the Java platform.
+    - It standardizes how you use built-in features, making development faster and more reliable.
+    - "API" emphasizes that you use these classes through their public methods, not by modifying their internal code.
+    - Example:
+        Classes like java.util.ArrayList, java.io.File, and java.lang.String are all part of the Java API

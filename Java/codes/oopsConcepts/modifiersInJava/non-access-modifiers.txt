@@ -1,0 +1,37 @@
+Here are brief examples for each non-access modifier in Java:
+
+**synchronized**
+Ensures only one thread can execute the method at a time.
+```java
+public synchronized void increment() {
+    count++;
+}
+```
+
+**volatile**
+Ensures changes to the variable are visible to all threads.
+```java
+private volatile boolean running = true;
+```
+
+**transient**
+Prevents a field from being serialized.
+```java
+private transient String password;
+```
+
+**native**
+Declares a method implemented in native code (e.g., C/C++).
+```java
+public native void nativeMethod();
+```
+
+**strictfp**
+Ensures floating-point calculations are consistent across platforms.
+```java
+public strictfp class StrictFPExample {
+    public strictfp double calculate(double a, double b) {
+        return a / b;
+    }
+}
+```
