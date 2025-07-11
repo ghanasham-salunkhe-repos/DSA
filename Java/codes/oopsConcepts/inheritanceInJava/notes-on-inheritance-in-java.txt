@@ -1,0 +1,107 @@
+Inheritance in Java allows a class (child/subclass) to acquire properties and behaviors
+(fields and methods) from another class (parent/superclass).
+It promotes code reuse and establishes a relationship between classes.
+
+**Key Points:**
+- Use the `extends` keyword for class inheritance.
+- The subclass inherits all non-private members of the superclass.
+- Java supports single inheritance (a class can extend only one class).
+- Constructors are not inherited but can be called using `super()`.
+
+**Types of Inheritance in Java:**
+- Single Inheritance: One subclass inherits from one superclass.
+- Multilevel Inheritance: A subclass inherits from another subclass.
+- Hierarchical Inheritance: Multiple subclasses inherit from one superclass.
+
+**Example 1: Single Inheritance**
+
+```java
+// File: Animal.java
+public class Animal {
+    void eat() {
+        System.out.println("Animal eats food");
+    }
+}
+
+// File: Dog.java
+public class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+// File: TestInheritance.java
+public class TestInheritance {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();  // Inherited method
+        d.bark(); // Own method
+    }
+}
+```
+
+**Example 2: Multilevel Inheritance**
+
+```java
+// File: Animal.java
+public class Animal {
+    void eat() {
+        System.out.println("eating...");
+    }
+}
+
+// File: Dog.java
+public class Dog extends Animal {
+    void bark() {
+        System.out.println("barking...");
+    }
+}
+
+// File: BabyDog.java
+public class BabyDog extends Dog {
+    void weep() {
+        System.out.println("weeping...");
+    }
+}
+
+// File: TestMultilevel.java
+public class TestMultilevel {
+    public static void main(String[] args) {
+        BabyDog b = new BabyDog();
+        b.eat();
+        b.bark();
+        b.weep();
+    }
+}
+```
+
+**Example 3: Using `super` Keyword**
+
+```java
+// File: Animal.java
+public class Animal {
+    Animal() {
+        System.out.println("Animal constructor");
+    }
+}
+
+// File: Dog.java
+public class Dog extends Animal {
+    Dog() {
+        super(); // Calls Animal constructor
+        System.out.println("Dog constructor");
+    }
+}
+```
+
+**Benefits of Inheritance:**
+- Code reusability
+- Method overriding (polymorphism)
+- Logical class hierarchy
+
+**Limitations:**
+- No multiple inheritance with classes (use interfaces for that)
+- Tight coupling between parent and child classes
+
+Inheritance is a core concept in object-oriented programming,
+enabling extensibility and maintainability in Java applications.
